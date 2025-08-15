@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/19/2025 21:18:10" ReportInfo.Modified="05/19/2025 21:31:02" ReportInfo.CreatorVersion="2025.2.3.0">
+  <Dictionary>
+    <TableDataSource Name="Authors" ReferenceName="bookBusinessDatabaseDataSet.Authors" DataType="System.Int32" Enabled="true">
+      <Column Name="Code_author" DataType="System.Int32"/>
+      <Column Name="Name_author" DataType="System.String"/>
+      <Column Name="Birthday" DataType="System.DateTime"/>
+    </TableDataSource>
+    <TableDataSource Name="Books" ReferenceName="bookBusinessDatabaseDataSet.Books" DataType="System.Int32" Enabled="true">
+      <Column Name="Code_book" DataType="System.Int32"/>
+      <Column Name="Title_book" DataType="System.String"/>
+      <Column Name="Code_author" DataType="System.Int32"/>
+      <Column Name="Pages" DataType="System.Int32"/>
+      <Column Name="Code_publish" DataType="System.Int32"/>
+    </TableDataSource>
+    <TableDataSource Name="Publishing_house" ReferenceName="bookBusinessDatabaseDataSet.Publishing_house" DataType="System.Int32" Enabled="true">
+      <Column Name="Code_publish" DataType="System.Int32"/>
+      <Column Name="Publish" DataType="System.String"/>
+      <Column Name="City" DataType="System.String"/>
+    </TableDataSource>
+    <Relation Name="FK_Books_Publishing_house" ReferenceName="bookBusinessDatabaseDataSet.FK_Books_Publishing_house" ParentDataSource="Publishing_house" ChildDataSource="Books" ParentColumns="Code_publish" ChildColumns="Code_publish" Enabled="true"/>
+    <Relation Name="FK_codeAuthor" ReferenceName="bookBusinessDatabaseDataSet.FK_codeAuthor" ParentDataSource="Authors" ChildDataSource="Books" ParentColumns="Code_author" ChildColumns="Code_author" Enabled="true"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Dock="Fill" Text="Пример табличного отчёта" HorzAlign="Center" VertAlign="Center" Font="Arial, 26pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="71.48" Width="718.2" Height="75.6" DataSource="Books">
+      <TextObject Name="Text2" Left="179.55" Top="9.45" Width="94.5" Height="18.9" Text="[Books.Title_book]" Font="Arial, 10pt"/>
+      <TextObject Name="Text3" Left="330.75" Top="9.45" Width="94.5" Height="18.9" Text="[Books.Authors.Name_author]" Font="Arial, 10pt"/>
+      <TextObject Name="Text4" Left="434.7" Top="9.45" Width="94.5" Height="18.9" Text="[Books.Publishing_house.Publish]" Font="Arial, 10pt"/>
+      <DataHeaderBand Name="DataHeader1" Top="40.47" Width="718.2" Height="28.35">
+        <TableObject Name="Table1" Left="179.55" Top="9.45" Width="349.65" Height="18.9">
+          <TableColumn Name="Column1" Width="154.35"/>
+          <TableColumn Name="Column2" Width="97.65"/>
+          <TableColumn Name="Column3" Width="97.65"/>
+          <TableRow Name="Row1">
+            <TableCell Name="Cell1" Text="Название книги" Font="Arial, 10pt"/>
+            <TableCell Name="Cell2" Text="Автор" Font="Arial, 10pt"/>
+            <TableCell Name="Cell3" Text="Издательство" Font="Arial, 10pt"/>
+          </TableRow>
+        </TableObject>
+      </DataHeaderBand>
+    </DataBand>
+  </ReportPage>
+</Report>

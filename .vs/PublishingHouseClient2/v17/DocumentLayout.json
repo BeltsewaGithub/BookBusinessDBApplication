@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72C32023-574B-4677-9F32-2602F778F5A6}|PublishingHouseClient2.csproj|c:\\users\\polina\\source\\repos\\publishinghouseclient2\\publishinghouseclient2\\publishinghouseclient2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72C32023-574B-4677-9F32-2602F778F5A6}|PublishingHouseClient2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C32023-574B-4677-9F32-2602F778F5A6}|PublishingHouseClient2.csproj|C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C32023-574B-4677-9F32-2602F778F5A6}|PublishingHouseClient2.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:58:57.976Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Polina\\source\\repos\\PublishingHouseClient2\\PublishingHouseClient2\\PublishingHouseClient2\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwGsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:59:53.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
